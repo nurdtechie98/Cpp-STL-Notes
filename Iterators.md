@@ -13,18 +13,18 @@ which provide iterators, may be passed to a wide range of standard functions.
 <h2>CONSTRUCTION</h2>
 general construction of iterators looks like
 
-```cpp
+```C++
 Container <datatype>::iterator name;
 ```
 ex. for creating an iterator for a vector
 
-```cpp
+```C++
 vector <int>::iterator  it;
 ```
 
 for list
 
-```cpp
+```C++
 list <int>::iterator it;
 ```
 <br>
@@ -72,11 +72,7 @@ int main()
 ```
 Output:
 ```
-<<<<<<< HEAD
-The vector elements are :
-=======
 The vector elements are : 
->>>>>>> 311950479494e5715100b6cf7725a66f029e99d7
 1 2 3 4 5
 The position of iterator after advancing is :
 4

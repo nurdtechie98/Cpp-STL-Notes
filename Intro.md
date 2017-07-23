@@ -21,7 +21,7 @@ GCC compiler has better standards and has few syntactical changes which well be 
 Templates was one of the recent addition that was worked out by bell labs now known as AT&T in 1990's and now finally included to the C++11 version.
 Templates as the name suggest are nothing but a set of predifined statements that provide us with ready to use instances
 Now the doubt that might arise in your mind is this not what function does how is it different.
-<h3>Method to define a function->for other datatype?<h3>
+<h3>Method to define a function->for other datatype?</h3>
 The answer is templates provides us with generic function.That is instead of defining a fuction individually for every datatype what you can do is define a single template
 Transition-> 
 

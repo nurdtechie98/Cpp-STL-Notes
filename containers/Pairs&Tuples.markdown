@@ -1,7 +1,7 @@
 <h1 align="center"> Pairs & Tuples </h1><br>
 
 <h1 align="center"><a href="#pairs" > Pairs </a> </h1>
-
+<div id='pairs'>
 <h2>Introduction</h2>
 
 Many times while solving various problem where we require 2 values to completely linked with each other in such a scenario it is best to use pairs.<br>
@@ -183,11 +183,11 @@ The vector after applying sort operation is:
 20 60
 40 50
 ```
-
+</div>
 
 <h1 align="center"> Tuples</h1>
 
-
+<div id='Tuples'>
 <h2>Introduction</h2>
 
 Tuples are nothing completely different but pairs extended from their limitation of size two. In problem solving many time we may accross situation where we require 3-4 values linked together as one that is when we use tuples<br>
@@ -294,3 +294,4 @@ The new tuple elements in order are : b 10 20.5 20 g 17.5
 <h2>Note</h2>
 Although it might seem to you that tuples are not of much importance but that is not the case it does saves your time in and makes your code clean for writing nested pairs<br>
 Also the functionality of sorting of pairs can be extended to tuples by appropriately modifying the custom function involved.
+</div>

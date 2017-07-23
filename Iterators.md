@@ -88,7 +88,7 @@ Using the operation ++ makes the iterator move a step towards the first element
 
 <h2>IMPLEMENTATION </h2>
 
-```cpp
+```C++
 for(vector<int>::reverse_iterator i=ar.rbegin();i!=ar.rend();++i)
 {
 	cout<<*i<<" ";
@@ -104,7 +104,7 @@ All other functions are the same as that of the iterators.
 Note-(For some lazy people) some efforts in typing of syntax can be reduced if you make use of **auto** keyword used provided by c++
 using this the above implementation would look like:
 
-```cpp
+```C++
 for(auto i=ar.rbegin();i!=ar.rend();++i)
 {
 	cout<<*i<<" ";
@@ -120,7 +120,7 @@ Using the operation ++ makes the iterator move a step towards the first element
 
 <h3>IMPLEMENTATION</h3>
 
-```
+```C++
 for(vector<int>::reverse_iterator i=ar.rbegin();i!=ar.rend();++i) 
 {
 	cout<<*i<<" ";
@@ -136,7 +136,7 @@ All other functions are the same as that of the iterators.
 Note-(For some lazy people) some efforts in typing of syntax can be reduced if you make use of **auto** keyword used provided by c++
 using this the above implementation would look like:
 
-```
+```C++
 for(auto i=ar.rbegin();i!=ar.rend();++i) 
 {
 	cout<<*i<<" ";

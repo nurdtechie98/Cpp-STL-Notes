@@ -72,7 +72,11 @@ int main()
 ```
 Output:
 ```
+<<<<<<< HEAD
 The vector elements are :
+=======
+The vector elements are : 
+>>>>>>> 311950479494e5715100b6cf7725a66f029e99d7
 1 2 3 4 5
 The position of iterator after advancing is :
 4
@@ -110,3 +114,35 @@ for(auto i=ar.rbegin();i!=ar.rend();++i)
 	cout<<*i<<" ";
 }
 ```
+<br>
+
+<h2>REVERSE ITERATORS</h2>
+Reverse iterator is an iterator adaptor that reverses the direction of a given iterator. 
+In other words, when provided with a bidirectional iterator, std::reverse_iterator produces a new iterator that moves from the end to the beginning of the sequence defined by the underlying bidirectional iterator.
+Here we make us of rend() and rbegin() where rbegin() points to the last element of the container and rend() points to one position before the first element.
+Using the operation ++ makes the iterator move a step towards the first element  
+
+<h3>IMPLEMENTATION</h3>
+
+```
+for(vector<int>::reverse_iterator i=ar.rbegin();i!=ar.rend();++i) 
+{
+	cout<<*i<<" ";
+}
+```
+Output:
+
+```
+5 4 3 2 1
+```
+All other functions are the same as that of the iterators.
+
+Note-(For some lazy people) some efforts in typing of syntax can be reduced if you make use of **auto** keyword used provided by c++
+using this the above implementation would look like:
+
+```
+for(auto i=ar.rbegin();i!=ar.rend();++i) 
+{
+	cout<<*i<<" ";
+}
+``` 

@@ -37,4 +37,4 @@
     13. [is_sorted()](./functions/is_sorted.md)
  5. [Problems](./problems.md)
  6. [Reference](./reference.md)
- 7.[Intro](./Intro.md)
+ 7. [Intro](./Intro.md)
